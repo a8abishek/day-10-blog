@@ -82,7 +82,7 @@
       <div class="flex-content">
         <!--content-->
         <div>
-          <h1 id="txt-blod">Blog</h1>
+          <h2 id="txt-blod">Blog</h2>
         </div>
         <!--icon & profileimage-->
         <div id="profile-flex">
@@ -111,8 +111,8 @@
         <div class="Categories-container">
           <!--title & see more btn-->
           <!--title-->
-          <div style="display:flex;align-items: center; column-gap: 15px;">
-            <h1>Top Categories</h1>
+          <div id="title-nav">
+            <h2>Top Categories</h2>
             <span id="message-content">10</span>
           </div>
           <!--see more btn-->
@@ -130,7 +130,7 @@
               <div style="display: flex; align-items: center; column-gap: 10px;">
                 <!--image-->
                 <div>
-                  <img src="https://media.istockphoto.com/id/1745865419/photo/woman-sleeping-in-bed-at-night-above-view-space-for-text.jpg?s=612x612&w=0&k=20&c=OJn4tJv1nhWNyJqxeUlFFLI0L1WNvKcK2r0xY2NY0oQ=" alt="image" width="50px" height="50px" style="border-radius: 100%; border: 1px solid; box-shadow: 1px 1px 1px gray;">
+                  <img src="https://media.istockphoto.com/id/1745865419/photo/woman-sleeping-in-bed-at-night-above-view-space-for-text.jpg?s=612x612&w=0&k=20&c=OJn4tJv1nhWNyJqxeUlFFLI0L1WNvKcK2r0xY2NY0oQ=" alt="image" width="50px" height="50px" style="border-radius: 100%; border: 1px solid; box-shadow: 1px 1px 1px gray; object-fit: cover;">
                 </div>
                 <!--Categories name1-->
                 <div>
@@ -148,12 +148,12 @@
               <div style="display: flex; align-items: center; column-gap: 10px;">
                 <!--image-->
                 <div>
-                  <img src="https://samitivej-prod-new-website.s3.ap-southeast-1.amazonaws.com/public/uploads/contents/bc62e003ebab056abbb6b21d70ab3d7d.jpg" alt="image" width="50px" height="50px" style="border-radius: 100%; border: 1px solid; box-shadow: 1px 1px 1px black;">
+                  <img src="https://images.stockcake.com/public/1/3/b/13b0b05d-dc4b-4d21-b7ac-ee7727587f57_large/sunset-yoga-beach-stockcake.jpg" alt="image" width="50px" height="50px" style="border-radius: 100%; border: 1px solid; box-shadow: 1px 1px 1px black; object-fit: cover;">
                 </div>
                 <!--Categories name2-->
                 <div>
-                  <b>Sleep</b>
-                  <p style="display: flex;align-items: center;column-gap: 10px; color: gray;">
+                  <b>Strees</b>
+                  <p style="display: flex;align-items: center; color: gray;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                      stroke-linejoin="round" class="lucide lucide-clipboard-list-icon lucide-clipboard-list"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/>
                      <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg>
@@ -166,11 +166,11 @@
               <div style="display: flex; align-items: center; column-gap: 10px;">
                 <!--image-->
                 <div>
-                  <img src="https://samitivej-prod-new-website.s3.ap-southeast-1.amazonaws.com/public/uploads/contents/bc62e003ebab056abbb6b21d70ab3d7d.jpg" alt="image" width="50px" height="50px" style="border-radius: 100%; border: 1px solid; box-shadow: 1px 1px 1px black;">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLZXqRVABD3Ph-aQEJfyC5YGCUJHnJGmLSWw&s" alt="image" width="50px" height="50px" style="border-radius: 100%; border: 1px solid; box-shadow: 1px 1px 1px black; object-fit: cover;">
                 </div>
                 <!--Categories name3-->
                 <div>
-                  <b>Sleep</b>
+                  <b>Mindfulness</b>
                   <p style="display: flex;align-items: center;column-gap: 10px; color: gray;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                      stroke-linejoin="round" class="lucide lucide-clipboard-list-icon lucide-clipboard-list"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/>
@@ -180,9 +180,163 @@
               </div>
             </div>
         </div>
-
       </section>
-
+      <!--Articles-container-->
+      <section class="article-container" >
+        <div id="articles-title">
+          <div id="title-nav">
+            <h2>Articles</h2>
+            <span id="message-content">100</span>
+          </div>
+          <div style="display: flex; align-items: center; column-gap: 18px;">
+            <butto class="sort-btn">sort by 
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="12px">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </butto>
+            <svg id="sort-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="16px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3c2.755 0 5.455.232 8.083.678.533.09.917.556.917 1.096v1.044a2.25 2.25 0 0 1-.659 1.591l-5.432 5.432a2.25 2.25 0 0 0-.659 1.591v2.927a2.25 2.25 0 0 1-1.244 2.013L9.75 21v-6.568a2.25 2.25 0 0 0-.659-1.591L3.659 7.409A2.25 2.25 0 0 1 3 5.818V4.774c0-.54.384-1.006.917-1.096A48.32 48.32 0 0 1 12 3Z" />
+            </svg>
+          </div>
+        </div>
+        <div class="article-cards">
+            <!--article-card-->
+            <div class="art-card">
+              <!--image-->
+              <div id="image-containers">
+                <img src="https://plus.unsplash.com/premium_photo-1663051330103-bf403d0c48bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="100%" height="100%" style="border-radius: 20px;">
+                <span id="image-comment">Relationships</span>
+              </div>
+              <!--article-contents-->
+              <p id="txt-gray" style="font-size: 14px;margin-block:10px;"> 15-20 min read </p>
+              <h2 id="art-title">5 Simple Key to Helping Youir Partner Feel Heard</h2>
+              <p id="art-para">Your relationship partner needs to feel understand. Being listener is the sec...</p>
+              <!--post-profile-->
+              <div style="display: flex; align-items: center; column-gap:10px;">
+                <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="35px" height="35px" style="border-radius: 100%; padding:5px;object-fit: cover;">
+                <div>
+                  <b>Dr.Ben Affleck</b>
+                  <p style="font-size: 14px; color: gray;">june 22 ,21</p>
+                </div>
+              </div>
+            </div>
+            <!--article 2-->
+            <div class="art-card">
+              <!--image-->
+              <div id="image-containers">
+                <img src="https://plus.unsplash.com/premium_photo-1663051330103-bf403d0c48bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="100%" height="100%" style="border-radius: 20px;">
+                <span id="image-comment">Relationships</span>
+              </div>
+              <!--article-contents-->
+              <p id="txt-gray" style="font-size: 14px;margin-block:10px;"> 15-20 min read </p>
+              <h2 id="art-title">5 Simple Key to Helping Youir Partner Feel Heard</h2>
+              <p id="art-para">Your relationship partner needs to feel understand. Being listener is the sec...</p>
+              <!--post-profile-->
+              <div style="display: flex; align-items: center; column-gap:10px;">
+                <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="35px" height="35px" style="border-radius: 100%; padding:5px;object-fit: cover;">
+                <div>
+                  <b>Dr.Ben Affleck</b>
+                  <p style="font-size: 14px; color: gray;">june 22 ,21</p>
+                </div>
+              </div>
+              <!--article 3-->
+            </div>
+            <div class="art-card">
+              <!--image-->
+              <div id="image-containers">
+                <img src="https://plus.unsplash.com/premium_photo-1663051330103-bf403d0c48bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="100%" height="100%" style="border-radius: 20px;">
+                <span id="image-comment">Relationships</span>
+              </div>
+              <!--article-contents-->
+              <p id="txt-gray" style="font-size: 14px;margin-block:10px;"> 15-20 min read </p>
+              <h2 id="art-title">5 Simple Key to Helping Youir Partner Feel Heard</h2>
+              <p id="art-para">Your relationship partner needs to feel understand. Being listener is the sec...</p>
+              <!--post-profile-->
+              <div style="display: flex; align-items: center; column-gap:10px;">
+                <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="35px" height="35px" style="border-radius: 100%; padding:5px;object-fit: cover;">
+                <div>
+                  <b>Dr.Ben Affleck</b>
+                  <p style="font-size: 14px; color: gray;">june 22 ,21</p>
+                </div>
+              </div>
+            </div>
+            <!--article 4-->
+            <div class="art-card">
+              <!--image-->
+              <div id="image-containers">
+                <img src="https://plus.unsplash.com/premium_photo-1663051330103-bf403d0c48bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="100%" height="100%" style="border-radius: 20px;">
+                <span id="image-comment">Relationships</span>
+              </div>
+              <!--article-contents-->
+              <p id="txt-gray" style="font-size: 14px;margin-block:10px;"> 15-20 min read </p>
+              <h2 id="art-title">5 Simple Key to Helping Youir Partner Feel Heard</h2>
+              <p id="art-para">Your relationship partner needs to feel understand. Being listener is the sec...</p>
+              <!--post-profile-->
+              <div style="display: flex; align-items: center; column-gap:10px;">
+                <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="35px" height="35px" style="border-radius: 100%; padding:5px;object-fit: cover;">
+                <div>
+                  <b>Dr.Ben Affleck</b>
+                  <p style="font-size: 14px; color: gray;">june 22 ,21</p>
+                </div>
+              </div>
+            </div>
+            <!--article 5-->
+            <div class="art-card">
+              <!--image-->
+              <div id="image-containers">
+                <img src="https://plus.unsplash.com/premium_photo-1663051330103-bf403d0c48bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="100%" height="100%" style="border-radius: 20px;">
+                <span id="image-comment">Relationships</span>
+              </div>
+              <!--article-contents-->
+              <p id="txt-gray" style="font-size: 14px;margin-block:10px;"> 15-20 min read </p>
+              <h2 id="art-title">5 Simple Key to Helping Youir Partner Feel Heard</h2>
+              <p id="art-para">Your relationship partner needs to feel understand. Being listener is the sec...</p>
+              <!--post-profile-->
+              <div style="display: flex; align-items: center; column-gap:10px;">
+                <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="35px" height="35px" style="border-radius: 100%; padding:5px;object-fit: cover;">
+                <div>
+                  <b>Dr.Ben Affleck</b>
+                  <p style="font-size: 14px; color: gray;">june 22 ,21</p>
+                </div>
+              </div>
+            </div>
+            <!--article 6-->
+            <div class="art-card">
+              <!--image-->
+              <div id="image-containers">
+                <img src="https://plus.unsplash.com/premium_photo-1663051330103-bf403d0c48bb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="100%" height="100%" style="border-radius: 20px;">
+                <span id="image-comment">Relationships</span>
+              </div>
+              <!--article-contents-->
+              <p id="txt-gray" style="font-size: 14px;margin-block:10px;"> 15-20 min read </p>
+              <h2 id="art-title">5 Simple Key to Helping Youir Partner Feel Heard</h2>
+              <p id="art-para">Your relationship partner needs to feel understand. Being listener is the sec...</p>
+              <!--post-profile-->
+              <div style="display: flex; align-items: center; column-gap:10px;">
+                <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="image" width="35px" height="35px" style="border-radius: 100%; padding:5px;object-fit: cover;">
+                <div>
+                  <b>Dr.Ben Affleck</b>
+                  <p style="font-size: 14px; color: gray;">june 22 ,21</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!--pageno-container-->
+      <div class="pageno-container" style="display: flex; column-gap: 40px; align-items: center;width: 80%; justify-content: center;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="15px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+        </svg>
+        <ul style="display: flex;list-style-type: none;column-gap: 40px;">
+          <li style="background-color:white; padding: 10px; cursor: pointer;">1</li>
+          <li style="background-color:#e8ecf7; padding:10px; cursor: pointer;">2</li>
+          <li style="background-color:white; padding: 10px; cursor: pointer;">3</li>
+          <li style="background-color:white ;padding: 10px; cursor: pointer;">...</li>
+          <li style="background-color:white; padding: 10px; cursor: pointer;">80</li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="15px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+        </svg>
     </div>
   </div>
 
